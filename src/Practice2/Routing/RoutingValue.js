@@ -1,12 +1,11 @@
 import React from 'react';
-import Home from "../MainComponents/Home"
 import Kalpas  from "../MainComponents/Kalpas"
 
 import {
   BrowserRouter as Router,
   Switch,
-  Route,
-  Link,Redirect
+  Route
+,Redirect
 } from "react-router-dom";
 
 const RoutingValue = () => {
