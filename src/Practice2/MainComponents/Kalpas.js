@@ -1,7 +1,8 @@
 import React, { useContext } from "react";
 import {
-  BrowserRouter as 
+  BrowserRouter as Router,
   Route,
+  Switch,
  
 } from "react-router-dom";
 import Home from "./Home";
@@ -22,6 +23,7 @@ const Kalpash = () => {
   };
 
   return (
+    <Router>
     <div className="row ">
       <div className="col-3 ">
         <div
@@ -38,19 +40,31 @@ const Kalpash = () => {
         </div>
       </div>
 
+     
+      
+
       <div className="col-8 pt-5">
+
+        <Switch>
+     
         <Route exact path="/Kalpas">
           <Home></Home>
         </Route>
 
-        <Route path="/Kalpas/home">
+        <Route   path="/Kalpas/home">
           <Home></Home>
         </Route>
-        <Route path="/Kalpas/feedback">
+        <Route  path="/Kalpas/feedback">
           <FeedbackChild></FeedbackChild>
         </Route>
+        </Switch>
+       
+      
       </div>
+      
+     
     </div>
+    </Router>
   );
 };
 

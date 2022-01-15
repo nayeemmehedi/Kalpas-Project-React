@@ -12,10 +12,9 @@ const Feedback = () => {
 
   const ChangeValue =() =>{
 
-      setFormValue3(!formValue3)
+      setFormValue3(!formValue3) 
 
-
-     history.push("/Kalpas/feedback")
+      history.push("/Kalpas/feedback")
 
 
 

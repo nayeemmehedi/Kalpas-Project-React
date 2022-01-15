@@ -14,15 +14,15 @@ const RoutingValue = () => {
       <div>
        
         <Switch>
-          <Route path="/Kalpas">
+          <Route  path="/Kalpas">
             <Kalpas />
           </Route>
-          <Route path="/">
+          <Route exact path="/">
           
             <Redirect  to="/Kalpas" />
           </Route>
 
-          <Route path="*">
+          <Route  path="*">
           
             <Redirect  to="/Kalpas" />
           </Route>
