@@ -1,0 +1,18 @@
+$primary: #ffffff ;
+$danger: rgba(232, 239, 240, 0.678);
+
+$info : #a3a0b3;
+
+$success : rgb(104, 165, 148);
+$secendary :rgb(219, 78, 12);
+
+$theme-colors: (
+  "primary": $primary,
+  "danger": $danger,
+  "info" : $info,
+  "success" : $success,
+  "secendary" : $secendary,
+);
+
+
+@import "../../node_modules/bootstrap/scss/bootstrap";
