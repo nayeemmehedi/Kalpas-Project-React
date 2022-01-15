@@ -1,10 +1,8 @@
 import React, { useContext } from "react";
 import {
-  BrowserRouter as Router,
-  Switch,
+  BrowserRouter as 
   Route,
-  Link,
-  Redirect,
+ 
 } from "react-router-dom";
 import Home from "./Home";
 import KalpasChild from "./KalpasChild";
@@ -15,7 +13,7 @@ import FeedbackChild from "./Feedback/FeedbackChild";
 import { FormContext } from "../ContextValue/ThirdFormContext";
 
 const Kalpash = () => {
-  const [formValue3, setFormValue3] = useContext(FormContext);
+  const [formValue3] = useContext(FormContext);
 
   const [toggleValue, settoggleValue] = useContext(kalpasContext);
 

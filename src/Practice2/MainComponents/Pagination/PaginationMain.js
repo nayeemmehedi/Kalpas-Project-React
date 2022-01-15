@@ -22,7 +22,7 @@ const PaginationMain = ({postperPage, totalPages, paginat}) => {
                 <li className="page-item">
                  {/* <a href="#" className="text-secendary">&laquo;</a> */}
 
-                <a onClick={()=>paginat(n)} className="page-link text-secendary">{n} </a>
+                <a href='!#' onClick={()=>paginat(n)} className="page-link text-secendary">{n} </a>
 
                 {/* <a href="#">&raquo;</a> */}
                 

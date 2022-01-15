@@ -8,7 +8,7 @@ import Childthird from "./ChildSquare/Childthird"
 const HomeChild = ({remove,value}) => {
 
 
-const [toggleValue, settoggleValue] = useContext(kalpasContext)
+const [toggleValue] = useContext(kalpasContext)
 
     return (
 

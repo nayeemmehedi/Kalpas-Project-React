@@ -9,7 +9,7 @@ const Home = () => {
 
      const [page, setpage] = useContext(contextMain)
     const [currentPage,setCurrentPage] = useState(1)
-    const [postperPage,setpostperPage] = useState(5)
+    const [postperPage] = useState(5)
 
 
     const indexlastPage = currentPage * postperPage

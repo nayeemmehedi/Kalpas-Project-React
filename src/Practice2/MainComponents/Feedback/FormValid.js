@@ -9,7 +9,6 @@ import validator from "validator";
 
     const firstNameRegx = /^[a-z ,.'-]+$/i;
 
-    const emailRegx = /^[a-z0-9](\.?[a-z0-9]){5,}@g(oogle)?mail\.com$/;
     const testFname = firstNameRegx.test(value.firstName);
     const testLname = firstNameRegx.test(value.lastName);
 
