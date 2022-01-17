@@ -36,8 +36,8 @@ const FeedbackChild = () => {
   };
 
   useEffect(() => {
-    //  console.log("xxx",formInit)
 
+    // eslint-disable-next-line eqeqeq
     if (Object.keys(formerror) == 0 && isSubmit) {
       console.log(formInit);
     }
