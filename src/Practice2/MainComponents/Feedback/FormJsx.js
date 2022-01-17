@@ -13,7 +13,7 @@ const FormJsx = ({
       <h4 className="text-center">Thank you so much for taking the time !</h4>{" "}
       <hr />
       <div className="text-center">
-        {Object.keys(formerror) === 0 && isSubmit && (
+        {Object.keys(formerror) == 0 && isSubmit && (
           <h3 className="text-success"> SuccessFully Done.....</h3>
         )}
       </div>

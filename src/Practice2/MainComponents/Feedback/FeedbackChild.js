@@ -38,7 +38,7 @@ const FeedbackChild = () => {
   useEffect(() => {
     //  console.log("xxx",formInit)
 
-    if (Object.keys(formerror) === 0 && isSubmit) {
+    if (Object.keys(formerror) == 0 && isSubmit) {
       console.log(formInit);
     }
   }, [formerror, formInit, isSubmit]);
